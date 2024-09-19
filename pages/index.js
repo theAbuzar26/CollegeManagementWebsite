@@ -1,9 +1,14 @@
 import { useState } from "react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from "../components/ui/tabs";
 import { GraduationCap, BookOpen, Users } from "lucide-react";
-import StudentManagement from "../StudentManagement";
-import CourseManagement from "../CourseManagement";
-import FacultyManagement from "../FacultyManagement";
+import StudentManagement from "../components/StudentManagement";
+import CourseManagement from "../components/CourseManagement";
+import FacultyManagement from "../components/FacultyManagement";
 
 export default function Home() {
   return (
